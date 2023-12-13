@@ -1,5 +1,6 @@
 from pymisp import MISPObject, InvalidMISPObject
 
+
 class TaranisObject(MISPObject):
     """ Following way to handle path to custom templates work:
           misp_objects_path_custom='/home/<user>/PycharmProjects/pythonProject/docker-misp/PyMISP/pymisp/data/misp-objects/objects'
